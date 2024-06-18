@@ -60,7 +60,7 @@ enum squareError: Error {
 //    }
 //    return number
 //}
-//
+
 
 func squareRoot(of number: Int) throws -> Int {
     if number < 1 || number > 10_000 {
